@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="history"
+            type="com.example.vdzmonitoring.ui.home.History" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/history_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@{history.routeLog.startAt}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="20-12-2019" />
+
+            <TextView
+                android:text="@{history.route.routeName}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="TOL A - TOL B" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="summary"
+            type="com.example.vdzmonitoring.ui.summarize.Summary" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/summarize_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@{summary.label}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="distance" />
+
+            <TextView
+                android:text="@{summary.value}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="9.6 KM" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

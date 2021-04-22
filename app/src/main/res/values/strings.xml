@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VDZ Monitoring</string>
+    <string name="speed_format">%1$d Km/H</string>
+    <string name="distance_text">%1$d meter to nearest VDZ: VDZ %2$d </string>
+</resources>

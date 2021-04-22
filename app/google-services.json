@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "642880446696",
+    "firebase_url": "https://vdzapp-da3a3.firebaseio.com",
+    "project_id": "vdzapp-da3a3",
+    "storage_bucket": "vdzapp-da3a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642880446696:android:eb3655aa3e8e6bded1295d",
+        "android_client_info": {
+          "package_name": "com.example.vdzmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642880446696-gunf74jk59lfpnoo16t8fi0fb90qkvr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHdhd9kA-GQGYekFQpAHG66EJPQFAFTko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642880446696-gunf74jk59lfpnoo16t8fi0fb90qkvr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
